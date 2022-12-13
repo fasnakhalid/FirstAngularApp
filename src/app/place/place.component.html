@@ -1,0 +1,7 @@
+<h1>Our Favourite Places </h1>
+<section class = "card-container">
+    <div *ngFor="let place of places" class="card m-2 p-2">
+        <h2 class="btn btn-success">{{place.name}}</h2>
+        <p>{{place.location}}</p>
+    </div>
+</section>
